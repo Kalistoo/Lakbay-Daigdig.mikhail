@@ -1,0 +1,232 @@
+/*
+🎨COLORS
+#CF514A: lightest pink 
+#B2393E: medium pink 
+#53242C: dark red 
+#C8C6B1: light green 
+#737955: green
+🖥️ FONTS
+font-family: 'Concert One', sans-serif;
+font-family: 'Righteous', sans-serif;
+*/ 
+
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Righteous&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Concert One', sans-serif; 
+}
+
+body {
+    min-height: 100vh;
+    background-color: #e6e3c9;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 200px;
+    background-color: #a19d78;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 28px;
+    color:white;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.navbar a {
+    font-size: 28px;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    margin-left: 50px;
+} 
+
+.home-content {
+    
+    position: relative;
+    top: 200px;
+    left: 30px;
+    color:#7a7759;
+}
+
+
+.container1 {
+    padding: 2rem;
+}
+
+.slider-wrapper1 {
+    position: relative;
+    max-width: 48rem;
+    margin: 0 auto;
+}
+
+.slider1 {
+    display: flex;
+    aspect-ratio: 16/9;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: auto;
+    box-shadow: 0.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
+    border-radius: 0.5rem;
+    box-decoration-break: none;
+}
+
+.slider1 img {
+    flex: 1 0 100%;
+    scroll-snap-align: start;
+    object-fit: cover;
+}
+
+.slider-nav1 {
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background-color: #fff;
+    opacity: 0.75;
+    transition: opacity ease 250ms;
+}
+ sup {
+    background-color: #d6d096;
+ }
+.info1 {
+        position: relative;
+        top: 100px;
+        left: 30px;
+        text-align: center;
+        color:#7a7759;
+        background-color:#d6d096;
+    
+}
+
+.info1 h3 {
+    background-color: #dee2b7;
+}
+/*THIS IS THE 2ND SLIDES*/
+.design2 {
+    justify-content: center ;
+
+}
+.container2 {
+    padding: 2rem;
+    position: relative;
+    top: 300px;
+
+}
+
+.slider-wrapper2 {
+    position: relative;
+    max-width: 48rem;
+    margin: 0 auto;
+}
+
+.slider2 {
+    display: flex;
+    aspect-ratio: 16/9;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: auto;
+    box-shadow: 0.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
+    border-radius: 0.5rem;
+    box-decoration-break: none;
+}
+
+.slider2 img {
+    flex: 1 0 100%;
+    scroll-snap-align: start;
+    object-fit: cover;
+}
+
+.slider-nav2 {
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background-color: #fff;
+    opacity: 0.75;
+    transition: opacity ease 250ms;
+}
+ sup {
+    background-color: #d6d096;
+ }
+.info2 {
+        position: relative;
+        top: 200px;
+        left: 30px;
+        text-align: center;
+        color:#7a7759;
+        background-color:#d6d096;
+    
+}
+
+.info2 h3 {
+    background-color: #dee2b7;
+}
+/*This is the code for the slides 3*/
+.design3 {
+    justify-content: center ;
+
+}
+.container3 {
+    padding: 2rem;
+    position: relative;
+    top: 300px;
+
+}
+
+.slider-wrapper3 {
+    position: relative;
+    max-width: 48rem;
+    margin: 0 auto;
+}
+
+.slider3 {
+    display: flex;
+    aspect-ratio: 16/9;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: auto;
+    box-shadow: 0.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
+    border-radius: 0.5rem;
+    box-decoration-break: none;
+}
+
+.slider3 img {
+    flex: 1 0 100%;
+    scroll-snap-align: start;
+    object-fit: cover;
+}
+
+.slider-nav3 {
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background-color: #fff;
+    opacity: 0.75;
+    transition: opacity ease 250ms;
+}
+ sup {
+    background-color: #d6d096;
+ }
+.info3 {
+        position: relative;
+        top: 200px;
+        left: 30px;
+        text-align: center;
+        color:#7a7759;
+        background-color:#d6d096;
+    
+}
+
+.info3 h3 {
+    background-color: #dee2b7;
+}
